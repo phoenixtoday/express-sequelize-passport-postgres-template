@@ -1,0 +1,4 @@
+#!/usr/bin/env node-dev
+
+var app = require("../boot.js");
+app.boot();

@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='http://openlayers.org/en/v3.4.0/css/ol.css')
+    script(src="http://openlayers.org/en/v3.4.0/build/ol.js")
+
+  body
+    - if (messages.info)
+      .message.info
+        span= messages.info
+    - if (messages.error)
+      .message.error
+        span= messages.error
+    block content

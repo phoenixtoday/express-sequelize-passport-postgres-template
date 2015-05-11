@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "pchu",
+    "password": null,
+    "database": "chilimo_develop",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "protocol": "postgres",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "pchu",
+    "password": null,
+    "database": "chilimo_test",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "protocol": "postgres",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "chilimo_production",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "protocol": "postgres",
+    "dialect": "postgres"
+  }
+}
